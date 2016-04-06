@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>A Platform PRINTEPS to Develop Practical Artificial Intelligence</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="stylesheet" type="text/css" href="style.css" media="all">
+<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<header class="globalHeader">
+	<div class="wrap cf">
+		<h1><strong><img src="images/logo.png" width="122" height="30" alt="PRINTEPS" /></strong><span>JST/CREST "A Platform PRINTEPS to Develop Practical <br/> Artificial Intelligence" (2014.10-2020.3)</span></h1>
+		
+		<nav>
+			<ul>
+				<li><a href="#work">Research</a></li>
+				<li><a href="#member">Research Members</a></li>
+				<li><a href="publications_en.html#result">Publications</a></li>
+				<!-- <li><a href="#history">Activities</a></li> -->
+			</ul>
+		</nav>
+		<ul>
+			<li style="float:left;padding:0 10px 0 30px;border-right:1px solid #aaa;"><a href="index.html">Japanese</a></li>
+			<li style="margin-left:10px;float:left;"><a href="index_en.html">English</a></li>
+		</ul>
+	</div>
+</header>
+<!-- /.globalHeader -->
+
+<article role="main">
+	<div class="splash">
+		<div class="wrap">
+			<h2><img src="images/splash_img_en.png" width="400" height="412" alt="PRINTEPS［Knowledge based reasoning/Speech dialogue/］" /></h2>
+			<div>
+				<p>This project has been supported by the Core Research for Evolutional Science and Technology (CREST) of the Japan Science and Technology Agency (JST) (2014.10-2020.3). The platform assists end users to easily develop Artificial Intelligence (AI) and intelligent robot Applications. Such applications perform a variety of intelligent behaviors such as listening and speaking (speech dialogue), thinking (knowledge based reasoning), seeing and moving (image sensing and motions). One of the future goals of this platform is to support the co-evolution of intelligence (between humans and machines). This will be achieved through the observation of human & machine behaviour; and the discovery of new knowledge.</p>
+				<p>PRINTEPS is a platform for end users to develop AI applications and a engine to promote variety of AI applications to society.</p>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="news">
+		<div class="news-inner">
+		<!--
+			<dl class="news-texts">
+				<dt title="file">NEWS</dt>
+				<dd>
+					<ul>
+						<li><em></em><a href="/"></a></li>
+						<li><em></em><a href="/"></a></li>
+						<li><em></em><a href="/"></a></li>
+						<li><em></em><a href="/"></a></li>
+					</ul>
+				</dd>
+			</dl>
+			<div class="news-pager">
+				<a class="news-pager-prev" href="#" title="left">&lt;</a>
+				<span class="news-pager-number"></span>
+				<a class="news-pager-next" href="#" title="right">&gt;</a>
+			</div>
+		-->
+		</div>
+	</div>
+	
+	<div class="leader">
+		<div class="wrap cf">
+			<div class="textArea">
+				<h2>What is PRINTEPS?</h2>
+				<p>PRINTEPS (PRactical INTElligent aPplicationS) is a total intelligent application development platform that integrates 5 types of sub systems (knowledge based reasoning systems, speech dialogue systems, human and environment sensing systems, and machine learning systems). PRINTEPS supports end users to participate in AI applications design (user participation design) and to develop applications easily (within hours to days) by combining software modules from PRINTEPS.</p>
+			</div>
+			<div class="movieArea">
+				<iframe width="416" height="234" src="https://www.youtube.com/embed/-zj1ePZZHO8?rel=0" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+	
+	
+	<section id="work" class="content work">
+		<h1>Research</h1>
+		<div class="tabs">
+			<ul class="cf">
+				<li class="current"><a href="/">Workflow Editor</a></li>
+				<li><span>&emsp;</span></li>
+				<li><span>&emsp;</span></li>
+			</ul>
+		</div>
+		<div class="tabBlock">
+			<div class="wrap">
+				<div  class="columnSet cf">
+					<div class="leftCol">
+						<ul class="popupGallery cf">
+							<li><a href="javascript:void(0);" title="（1）Teahouse operations"><img src="images/workflow_process01.jpg" width="316" height="218" alt="（1）Teahouse operations" /></a><p>（1）Teahouse operations</p></li>
+							<li><a href="javascript:void(0);" title="（2）Customer reception at the entrance service"><img src="images/workflow_process02.jpg" width="316" height="218" alt="（2）Customer reception at the entrance service" /></a><p>（2）Customer reception at the entrance service</p></li>
+							<li><a href="javascript:void(0);" title="（3）Greeting to the customer process"><img src="images/workflow_process03.jpg" width="316" height="218" alt="（3）Greeting to the customer process" /></a><p>（3）Greeting to the customer process</p></li>
+							<li><a href="javascript:void(0);" title="（4）Customer detection process"><img src="images/workflow_process04.jpg" width="316" height="218" alt="（4）Customer detection process" /></a><p>（4）Customer detection process</p></li>
+						</ul>
+					</div>
+					<div class="rightCol">
+						<p>We are currently working to implement a workflow editor on PRINTEPS. Specifically, this is a Web application that operates in a Web browser. This workflow editor establishes a workflow based on an SOA and automatically produces source code in Python that can be executed in Robot Operating System (ROS).</p>
+						<p>The workflow editor allows the reference of ROS Service (Server and Client), Topic (Publisher and Subscriber), and Message as the minimal function modules. Inter-module means of connecting are automatically determined based on ROS Message types. The Message modules are used for type conversion when the values of specific fields in a composite data type are connected to the entries of other modules. PRINTEPS provides knowledge based reasoning, speech dialogue, image sensing, motions, and machine learning modules based on ROS.</p>
+						<p>Process plays a function-like role in which it compiles multiple modules. In the Process operation, processes and modules can be defined in a mixed manner.</p>
+						<p>Service is a function with the roughest grain size and is composed only of processes defined as business processes.</p>
+					</div>
+				</div>
+				<ul class="imageList cf">
+					<li><img src="images/workflow_pdca01.png" width="357" height="196" alt="" /></li>
+					<li><img src="images/workflow_pdca02.png" width="357" height="196" alt="" /></li>
+					<li><img src="images/workflow_pdca03.png" width="357" height="196" alt="" /></li>
+				</ul>
+				<p>The first hierarchy (root service) of the workflow editor is composed of a route start, service list, and route end. The service list, when completed, will be shared among users as a best practice. It will allow users to locate easily those services, processes, or modules used as best practice.</p>
+			</div>
+			<div class="wrap">
+				<div style="font-size:1.5rem;color:#4BBFE3">Robots used in this project</div>
+				<ul class="imageList2 cf">
+					<li style="margin-left:0;margin-top:41px;"><a href="https://www.aldebaran.com/en/cool-robots/pepper"><img src="images/Pepper.jpeg" width="125" height="125" alt="" /><p style="text-align:center;">Pepper</p></a></li>
+					<li style="margin-top:41px;"><a href="http://nextage.kawada.jp/en/open/"><img src="images/HIRO.jpeg" width="125" height="125" alt="" /><p style="text-align:center;">Hiro</p></a></li>
+					<li style="margin-top:41px;"><a href="https://www.aldebaran.com/en/cool-robots/nao"><img src="images/NAO.jpeg" width="125" height="125" alt="" /><p style="text-align:center;">Nao</p></a></li>
+					<li><a href="http://www.kinovarobotics.com/assistive-robotics/products/manipulation/"><img src="images/Jaco2.jpg" width="125" height="166" alt=""/><p style="text-align:center;">Jaco2</p></a></li>
+					<li><a href="https://www.vstone.co.jp/products/sota/"><img src="images/Sota.jpg" width="125" height="166" alt="" /><p style="text-align:center;">Sota</p></a></li>
+				</ul>
+			</div>
+			<div class="btnArea">
+				<a class="btn" href="http://demo.printeps.org/description/en" target="_blank">Go to the demo site</a>
+			</div>
+		</div>
+		
+	</section>
+
+	<section id="member" class="content member">
+		<h1>Research Members</h1>
+		<div class="wrap cf">
+			<div class="group">
+				<div class="groupBox">
+					<h2>Knowledge Group<br/><br/></h2>
+					<ul>
+						<li><img src="images/profile_gp01_01.jpg" width="97" height="110" alt="Takahira Yamaguchi" /><strong><a href="http://www.yamaguti.comp.ae.keio.ac.jp/en/index.en.html">Takahira Yamaguchi</a></strong>Faculty of Science and Technology, Keio University<span>(Team leader)</span></li>
+						<li><img src="images/profile_gp01_05.jpg" width="97" height="110" alt="Takeshi Morita" /><strong><a href="http://researchmap.jp/t_morita/?lang=english">Takeshi Morita</a></strong>Faculty of Science and Technology, Keio University</li>
+						<li><img src="images/profile_dummy.jpg" width="97" height="110" alt="Tadashi Suzuki" /><strong><a href="http://www.shirayuri.ac.jp/en/">Tadashi Suzuki</a></strong>School of Liberal Arts, Shirayuri University</li>
+						<li><img src="images/profile_dummy.jpg" width="97" height="110" alt="Junji Yamazaki" /><strong>Junji Yamazaki</strong>Faculty of Letters, Gakushuin University</li>
+					</ul>
+				</div>
+				<div class="groupBox">
+					<h2>Dialog Group<br/><br/></h2>
+					<ul>
+						<li><img src="images/profile_gp02_01.jpg" width="97" height="110" alt="Yukiko Nakano" /><strong><a href="http://iui.ci.seikei.ac.jp/">Yukiko Nakano</a></strong>Faculty of Science and Technology, Seikei University<span>(Principal researcher)</span></li>
+						<li><img src="images/profile_gp02_02.jpg" width="97" height="110" alt="Yutaka Takase" /><strong><a href="http://iui.ci.seikei.ac.jp/~takase/">Yutaka Takase</a></strong>Faculty of Science and Technology, Seikei University</li>
+						<li><img src="images/profile_gp01_06.jpg" width="97" height="110" alt="Ryota Nishimura" /><strong><a href="http://ryota.nishimura.name/">Ryota Nishimura</a></strong>Graduate School of Science and Technology, Keio University</li>
+					</ul>
+				</div>
+				<div class="groupBox">
+					<h2>Image Sensing and Motions Group</h2>
+					<ul>
+						<li><img src="images/profile_gp03_01.jpg" width="97" height="110" alt="Hideo Saito" /><strong><a href="http://www.hvrl.ics.keio.ac.jp/">Hideo Saito</a></strong>Faculty of Science and Technology, Keio University<span>(Principal researcher)</span></li>
+						<li><img src="images/profile_gp03_02.jpg" width="97" height="110" alt="Masafumi Hagiwara" /><strong><a href="http://www.soft.ics.keio.ac.jp/?lang=en">Masafumi Hagiwara</a></strong>Faculty of Science and Technology, Keio University</li>
+						<li><img src="images/profile_gp03_05.jpg" width="97" height="110" alt="Masaki Takahashi" /><strong><a href="http://www.yt.sd.keio.ac.jp/">Masaki Takahashi</a></strong>Faculty of Science and Technology, Keio University</li>
+						<li><img src="images/profile_gp03_03.jpg" width="97" height="110" alt="Yoshimitsu Aoki" /><strong><a href="http://www.aoki-medialab.org/">Yoshimitsu Aoki</a></strong>Faculty of Science and Technology, Keio University</li>
+						<li><img src="images/profile_gp03_04.jpg" width="97" height="110" alt="Maki Sugimoto" /><strong><a href="http://im-lab.net/en/">Maki Sugimoto</a></strong>Faculty of Science and Technology, Keio University</li>
+						<li><img src="images/profile_dummy.jpg" width="97" height="110" alt="Ayanori Yorozu"/><strong>Ayanori Yorozu</strong>Graduate School of Science and Technology, Keio University</li>
+						<li><img src="images/profile_dummy.jpg" width="97" height="110" alt="Yuko Ozasa"/><strong>Yuko Ozasa</strong>Graduate School of Science and Technology, Keio University</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--<section id="result" class="content result">
+		<h1>Publications</h1>
+		<div class="btnArea">
+			<a class="btn" href="javascript:void(0);">2015</a>
+		</div>
+		<div class="wrap cf 2015">
+			<table class="dataFmt">
+				<tr>
+					<th>Journal papers</th>
+					<td><ul>
+							<li>1.&nbsp;Masahiko Yamamoto, Masafumi Hagiwara: “Moral Judgement System Using Evaluation Expressions,” International Journal of Affective Engineering, Vol.15, No.1, pp.153-161, 2016.(DOI:<a href="http://dx.doi.org/10.5057/jjske.TJSKE-D-15-00026" target="_blank" >10.5057/jjske.TJSKE-D-15-00026</a>)</li>
+							<li>2.&nbsp;Yusuke Nakayama, Hideo Saito, Masayoshi Shimizu, and Nobuyasu Yamaguchi, Marker-Less Augmented Reality Framework Using On-Site 3D Line-Segment-basedModel Generation, Journal of Imaging Science and Technology, vol. 60, no.2, pp.020401-1~020401-24, 2016.(DOI:<a href="http://dx.doi.org/10.2352/J.ImagingSci.Technol.2016.60.2.020401" target="_blank" >10.2352/J.ImagingSci.Technol.2016.60.2.020401</a>)</li>
+							<li>3.&nbsp;Shunta Saito, Takayoshi Yamashita and Yoshimitsu Aoki, “Multiple Objects Extraction from Aerial Imagery with Convolutional Neural Networks,” Journal of Imaging Science and Technology, Vol.60, No.1, pp. 10402-1-10402-9(9)、2016.(DOI:<a href="http://dx.doi.org/10.2352/J.ImagingSci.Technol.2016.60.1.010402" target="_blank" >10.2352/J.ImagingSci.Technol.2016.60.1.010402</a>)</li>
+							<li>4.&nbsp;Toshiki Yamanaka，Yutaka Takase, and Yukiko I. Nakano. Assessing the Communication Attitude of the Elderly using Prosodic Information and Head Motions. In Proceedings of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction Extended Abstracts (HRI'16 Extended Abstracts). ACM, New York, NY, USA.	</li>
+							<li>5.&nbsp;Yuki Kadono, Yutaka Takase, and Yukiko I. Nakano. Generating Iconic Gestures based on Graphic Data Analysis and Clustering. In Proceedings of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction Extended Abstracts (HRI'16 Extended Abstracts). ACM, New York, NY, USA.	</li>
+							<li>6.&nbsp;Vrzakova, H., Bednarik, R., Nakano, Y., Nihei, F.: Speakers' head and gaze dynamics weakly correlate in group conversation Proceedings of the Ninth Biennial ACM Symposium on Eye Tracking Research & Applications, pp. 77-84, ACM, 2016.(DOI:<a href="http://dx.doi.org/10.1145/2857491.2857522" target="_blank" >10.1145/2857491.2857522</a>)</li>
+							<li>7.&nbsp;Ayanori Yorozu, Masaki Takahashi, "Improved Leg Tracking Considering Gait Phase and Spline-based Interpolation during Turning Motion in Walk Tests", Sensors, Vol. 15, No.9, pp. 22451-22472, 2015.(DOI:<a href="http://dx.doi.org/10.3390/s150922451" target="_blank" >10.3390/s150922451</a>)</li>
+							<li>8.&nbsp;Ayanori Yorozu, Shu Nishiguchi, Minoru Yamada, Tomoki Aoyama, Toshiki Moriguchi and Masaki Takahashi, "Gait Measurement System for the Multi-Target Stepping Task Using a Laser Range Sensor", Sensors, Vol.15, No.5, pp. 11151-11168, 2015.(DOI:<a href="http://dx.doi.org/10.3390/s150511151" target="_blank" >10.3390/s150511151</a>)</li>
+							<li>9.&nbsp;Shunta Saito, Ryota Arai and Yoshimitsu Aoki, “Seamline Determination Based on Semantic Segmentation for Aerial Image Mosaicking,” IEEE Access, Vol. 3, pp. 2847-2856, 2015.(DOI:<a href="http://dx.doi.org/10.1109/ACCESS.2015.2508921" target="_blank" >10.1109/ACCESS.2015.2508921</a>)</li>
+							<li>10.&nbsp;Yukiko I. Nakano, Takashi Yoshino, Misato Yatsushiro, and Yutaka Takase. Generating Robot Gaze on the Basis of Participation Roles and Dominance Estimation in Multiparty Interaction. ACM Transactions on Interactive Intelligent Systems. 5, 4, Article 22 (December 2015), 23 pages. (DOI:<a href="http://dx.doi.org/10.1145/2743028" target="_blank" >10.1145/2743028</a>)</li>
+							<li>11.&nbsp;Yukiko I. Nakano, Sakiko Nihonyanagi, Yutaka Takase, Yuki Hayashi, and Shogo Okada. Predicting Participation Styles using Co-occurrence Patterns of Nonverbal Behaviors in Collaborative Learning, 17th ACM International Conference on Multimodal Interaction (ICMI2015), pp. 91-98, 2015.	</li>
+							<li>12.&nbsp;Tatsuya Kimoto, Takeshi Morita, Takahito Ishii, Haryuya Suga, Yu Sugawara, Takashi Beppu and Takahira Yamaguchi，”Integrating Heterogeneous Data Sources for Planning Road Reconstruction”, Knowledge-Based and Intelligent Information & Engineering Systems 19th Annual Conference, KES-2015, Procedia Computer Science, Volume 60, pp.1720-1727, 2015(DOI:<a href="http://dx.doi.org/10.1016/j.procs.2015.08.302" target="_blank" >10.1016/j.procs.2015.08.302</a>)</li>
+							<li>13.&nbsp;Ayanori Yorozu, Masaki Takahashi, Development of Gait Measurement Robot Using Laser Range Sensor for Evaluating Long-distance Walking Ability in the Elderly, IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2015), pp.4888-4893, 2015(DOI:<a href="http://dx.doi.org/10.1109/IROS.2015.7354064" target="_blank" >10.1109/IROS.2015.7354064</a>)</li>
+						</ul></td>
+				</tr>
+				<tr>
+					<th>International oral presentations</th>
+					<td>
+						<ul>
+							<li>1.&nbsp;Kunihiro Hasegawa, Hideo Saito	Diminished Reality for Hiding a Pedestrian using Hand-held Camera	International Workshop on Diminished Reality as Challenging Issue in Mixed and Augmented Reality (IWDR2015)	福岡国際会議場	2015/9/29</li>
+							<li>2.&nbsp;Siim Meerits, Hideo Saito	Real-Time Diminished Reality for Dynamic Scenes	International Workshop on Diminished Reality as Challenging Issue in Mixed and Augmented Reality (IWDR2015)	福岡国際会議場	2015/9/29</li>
+							<li>3.&nbsp;Y.Sugawara, T.Morita, S.Saito and T.Yamaguchi	An Intelligent Application Development Platform for Service Robots	Workshop on Multimodal Semantics for Robotic Systems (MuSRobS), IEEE/RSJ International Conference on Intelligent Robots and Systems 2015	Hamburg, Germany	2015/9/28</li>
+							<li>4.&nbsp;H.Suga, T.Morita, and T.Yamaguchi	Primary School Teacher -Robot Collaboration with Multiple Information Sources	Workshop on Bridging user needs to deployed applications of service robots, IEEE/RSJ International Conference on Intelligent Robots and Systems 2015	Hamburg, Germany	2015/9/28</li>
+							<li>5.&nbsp;T. Yamaguchi	A Platform PRINTEPS to Develop Practical Intelligent Applications	Workshop on Towards Wisdom Computing: Harmonious Collaboration Between People and Machines, 2015 ACM International Joint Conference on Pervasive and Ubiquitous Computing Adjunct Publication	Congre Convention Hall B04 B2th Floor, Grand Front Osaka Tower-C 3-1 Ofuka-cho, Kita-ku, Osaka	2015/9/7</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>Poster presentations</th>
+					<td><ul>
+							<li>1.&nbsp;Rintaro Manabe	User Modeling and Reception Interaction by Service Robots. HRI2016 workshop on the challenge (not) to go wild! Challenges and best practices to study HRI in natural interaction settings.	HRI2016	New Zealand	2016/3/7</li>
+							<li>2.&nbsp;Kimimasa Tamura	Model Based 3D Gaze Estimation from a Monocular Camera	FCV2016	Takayama, Japan	2016/2/18</li>
+							<li>3.&nbsp;Masayuki Sano, Kazuki Matsumoto, Bruce Thomas, Hideo Saito	Rubix: Dynamic Spatial Augmented Reality by Extraction of Plane Regions with a RGB-D Camera	2015 IEEE International Symposium on Mixed and Augmented Reality (ISMAR2015)	福岡国際会議場	2015/9/30</li>
+							<li>4.&nbsp;Naoto Ienaga, Hideo Saito, Kouichi Tezuka, Yasumasa Iwamura and Masayoshi Shimizu	Combination Photometric Stereo Using Compactness of Albedo and Surface Normal in the Presence of Shadows and Specular Reflection	CAIP2015	Malta	2015/9/1</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>Awards</th>
+					<td>
+						<ul>
+							<li>1.&nbsp;Nakayama, Hideo Saito, Masayoshi Shimizu, and Nobuyasu Yamaguchi	Best Paper Award	Electronic Imaging 2016, Image Processing: Machine Vision Applications IX, 2016	サンフランシスコ	2016/2/17</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<!-- <div class="btnArea">
+				<a class="btn" href="javascript:void(0);" target="_blank">すべて見る</a>
+			</div>
+		</div>
+		<div class="btnArea">
+			<a class="btn" href="javascript:void(0);">2014</a>
+		</div>
+		<div class="wrap cf 2014">
+			<table class="dataFmt">
+				<tr>
+					<th>Journal papers</th>
+					<td><ul>
+							<li>1.&nbsp;Shunta Saito and Yoshimitsu Aoki, “Building and road detection from large aerial imagery”, Proc. SPIE 9405, Image Processing: Machine Vision Applications VIII, 94050K ,February 27, 2015, (DOI:<a href="http://dx.doi.org/10.1117/12.2083273" target="_blank" >10.1117/12.2083273</a>)</li>
+							<li>2.&nbsp;Yusuke Nakayama, Hideo Saito, Masayoshi Shimizu, and Nobuyasu Yamaguchi, “Marker-less AR system based on line segment feature”, Proc. SPIE 9392, The Engineering Reality of Virtual Reality 2015, 93920I, March 17, 2015, (DOI:<a href="http://dx.doi.org/10.1117/12.2083673" target="_blank">10.1117/12.2083673</a>)</li>
+							<li>3.&nbsp;Yohei Ogura, Takuya Ikeda, Francois de Sorbier, and Hideo Saito, “Illumination Estimation and Relighting using an RGB-D Camera”, Proc. The International Conference on Computer Vision Theory and Applications (VISAPP2015), pp.305-312, March, 2015, (DOI:<a href="http://dx.doi.org/10.5220/0005295403050312" target="_blank">10.5220/0005295403050312</a>)</li>
+							<li>4.&nbsp;N.Marumo, T.Beppu and T.Yamaguchi, “A Knowledge Transfer System Integrating Workflow, a Rule Base and a Goal Tree Based On Domain Ontologies”, International Conference on Knowledge Science, Engineering and Management (KSEM2014), Springer LNAI 8793 pp. 357-367, October, 2014, (DOI: <a href="http://dx.doi.org/10.1007/978-3-319-12096-6_32" target="_blank">10.1007/978-3-319-12096-6_32</a>)</li>
+							<li>5.&nbsp;Y.Ogawa, Y.Mori adn T.Yamaguchi, “Applying Semantic Web Services to Multi-Robot Coordination”, WS on Real-World HRI, 16th ACM International Conference on Multimodal Interaction (ICMI2014) pp. 29-30, November, 2014, (DOI: <a href="http://dx.doi.org/10.1145/2666499.2669640" target="_blank">10.1145/2666499.2669640</a>)</li>
+							<li>6.&nbsp;Y.Mori, Y.Ogawa, A.Hikawa and T.Yamaguchi, “Multi-Robot Coordination Based on Ontologies and Semantic Web Service”, The 2014 Pacific Rim Knowledge Acquisition Workshop (PKAW2014), Springer LNAI 8863 pp. 150-164, December, 2014 (DOI: <a href="http://dx.doi.org/10.1007/978-3-319-13332-4_13" target="_blank">10.1007/978-3-319-13332-4_13</a>)</li>
+							<li>7.&nbsp;Takashi Yoshino, Yutaka Takase, and Yukiko I. Nakano, ” Controlling Robot’s Gaze according to Participation Roles and Dominance in Multiparty Conversations”, In Proceedings of the Tenth Annual ACM/IEEE International Conference on Human-Robot Interaction Extended Abstracts (HRI’15 Extended Abstracts). ACM, New York, NY, USA, pp. 127-128, 2015, (DOI: <a href="http://dx.doi.org/10.1145/2701973.2702012" target="_blank">10.1145/2701973.2702012</a>)</li>
+							<li>8.&nbsp;Takashi Yoshino, Yuki Hayashi, and Yukiko I. Nakano, “Determining robot gaze according to participation roles in multiparty conversations”, In Proceedings of the second international conference on Human-agent interaction (HAI ’14). ACM, New York, NY, USA, 277-280, 2014, (DOI:<a href="http://dx.doi.org/10.1145/2658861.2658941" target="_blank">10.1145/2658861.2658941</a>)</li>
+						</ul></td>
+				</tr>
+				<tr>
+					<th>Invited talks</th>
+					<td><ul>
+							<li>1.&nbsp;T.Yamaguchi, A Knowledge Transfer System Based on the Integration of Workflow and Rule Base and Ontologies, the University of Vienna, October 14, 2014.</li>
+							<li>2.&nbsp;T.Yamaguchi, Interdisciplinarity vs. Specialization in Robot Technology in Japan, KSEM2014, Sibiu, Romania, October 18, 2014.</li>
+							<li>3.&nbsp;T.Yamaguchi, Wikipedia Ontology Engineering and Applications to Human Robot Interaction, PKAW2014, Gold Coast, Australia, December 2, 2014.<a href="http://www.pkaw.org/pkaw2014/" target="_blank">http://www.pkaw.org/pkaw2014/</a></li>
+							<li>4.&nbsp;Yukiko Nakano, Understanding and modeling multiparty, multimodal interactions, In Proceedings of the workshop on From Modeling Multimodal and Multiparty Interactions to Designing Conversational Agents in ICMI2014, Istanbul, Turkey, November 16, 2014.<a href="http://ummmi.ilsp.gr/?page_id=18" target="_blank">http://ummmi.ilsp.gr/?page_id=18</a></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>Poster presentations</th>
+					<td><ul>
+							<li>1.&nbsp;T.Morita, S.Tamagawa and T.Yamaguchi: Constructing a Class Hierarchy with Properties by Refining and Aligning Japanese Wikipedia Ontology and Japanese WordNet, 13th International Semantic Web Conference (ISWC2014), 9th International Workshop on Ontology Matching, Riva del Garda, Italy, October 20, 2014.</li>
+							<li>2.&nbsp;T.Makiyama, Y.Ono, T.Morita, T.Yamaguchi, H.Kogusuri, T.Hideyuki and T.Sugiyama: Implementing Tourism Service Based on Linked Data with Social Experiments, Poster and Demonstartion, The Joint International Semantic Technology Conference (JIST) 2014, Chiang Mai, Thailand, November 10, 2014.</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<!--<div class="btnArea">
+				<a class="btn" href="javascript:void(0);" target="_blank">すべて見る</a>
+			</div>
+		</div>
+	</section>-->
+
+	<!-- <section id="history" class="content history">
+		<h1>Activities</h1>
+		<div class="wrap cf">
+			<table class="dataFmt">
+				<tr>
+					<th>2014年10月21日</th>
+					<td><ul>
+							<li>名称：チーム内ミーティング（非公開）</li>
+							<li>場所：慶應義塾大学矢上キャンパス 14棟 506</li>
+							<li>人数：4人</li>
+							<li>内容：平成26年度　第一回 領域会議に向けた打合せ</li>
+							<li>総括：不参加</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>2014年11月16日</th>
+					<td><ul>
+							<li>名称：7th Workshop on Eye Gaze in Intelligent Human Machine Interaction, 15h ACM International Conference on Multimodal Interaction (ICMI2014). (Co-Organizer)</li>
+							<li>場所：Istanbul, Turkey</li>
+							<li>人数：20人</li>
+							<li>内容：視線を用いたHCIに関する国際ワークショップ</li>
+							<li>総括：不参加</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>2015年1月15日</th>
+					<td><ul>
+							<li>名称：サイトビジット</li>
+							<li>場所：慶應義塾大学 矢上キャンパス 25棟 601</li>
+							<li>人数：10人</li>
+							<li>内容：プロジェクト進捗報告</li>
+							<li>総括：参加</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>2015年2月26日</th>
+					<td><ul>
+							<li>名称：DNPとの情報交換会（非公開）</li>
+							<li>場所：慶應義塾大学 矢上キャンパス 26棟 207</li>
+							<li>人数：10人</li>
+							<li>内容：情報交換</li>
+							<li>総括：不参加</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>2015年3月6日</th>
+					<td><ul>
+							<li>名称：チーム内ミーティング（非公開）</li>
+							<li>場所：慶應義塾大学 矢上キャンパス 14棟 506</li>
+							<li>人数：3人</li>
+							<li>内容：平成26年度第二回領域会議に向けた打合せ</li>
+							<li>総括：不参加</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>2015年3月7日，8日</th>
+					<td><ul>
+							<li>名称：平成26年度 第二回領域会議</li>
+							<li>場所：クロス・ウェーブ府中 3階 304(大研修室B)</li>
+							<li>人数：39人</li>
+							<li>内容：学術交流</li>
+							<li>総括：不参加</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>2015年3月7日，8日</th>
+					<td><ul>
+							<li>名称：チーム内ミーティング（非公開）</li>
+							<li>場所：慶應義塾大学 矢上キャンパス 24棟 207</li>
+							<li>人数：9人</li>
+							<li>内容：グループ間の情報交換</li>
+							<li>総括：不参加</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			<!--<div class="btnArea">
+				<a class="btn" href="javascript:void(0);" target="_blank">すべて見る</a>
+			</div>-->
+	<!--	</div>
+	</section>
+	-->
+	
+</article>
+
+<footer class="globalFooter">
+	<small>Copyright (C) 2014 - YAMAGUCHI CREST project All Rights Reserved.</small>
+</footer>
+<!-- /.footerGroup --> 
+
+
+<!-- Loading JavaScript --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.transit.min.js"></script>
+<script type="text/javascript" src="js/jQueryAutoHeight.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+
+
+</body>
+</html>
