@@ -352,6 +352,7 @@ a.btn.back:after {
 .btnArea {
 	margin-top: 50px;
 	text-align: center;
+	min-width: 1125px;
 }
 .btnArea input.submitBtn {
 	display: inline-block;
