@@ -736,6 +736,9 @@ page design
 	text-indent: -3em;
 }
 
-
-
+.jst_logo {
+	text-align: center;
+	border-top: solid 1px #DAE3EA;
+	margin: 0 auto;
+}
 
