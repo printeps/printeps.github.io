@@ -740,5 +740,6 @@ page design
 	text-align: center;
 	border-top: solid 1px #DAE3EA;
 	margin: 0 auto;
+	min-width: 1125px;
 }
 
