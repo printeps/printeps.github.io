@@ -176,6 +176,17 @@ main
 
 
 /* news */
+.news-content h1{
+	padding: 20px 0px;
+	min-width: 1125px;
+	background-color: #4BBFE3;
+	line-height: 0.5em;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #FFFFFF;
+}
+
+/*
 .news {
 	width: 100%;
 	background-color: #FFF;
@@ -258,7 +269,7 @@ main
 }
 .news-pager-prev { background: url(images/ico_prv.png) no-repeat center center;}
 .news-pager-next { background: url(images/ico_fwd.png) no-repeat center center;}
-
+*/
 
 
 /* section */
@@ -279,11 +290,6 @@ main
 .columnSet {}
 .columnSet .leftCol { float: left;}
 .columnSet .rightCol { float: right;}
-
-
-
-
-
 
 /*========================================================
 footer
