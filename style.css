@@ -182,8 +182,16 @@ main
 	background-color: #4BBFE3;
 	line-height: 0.5em;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	color: #FFFFFF;
+}
+
+.news-content li {
+    font-size: 1.2em;
+}
+
+.news-content em {
+    font-weight: bolder;
 }
 
 /*
