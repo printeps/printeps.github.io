@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>printeps_cafe_srvs</artifactId>
+  <version>0.3.5</version>
+  <versioning>
+    <versions>
+      <version>0.0.4</version>
+      <version>0.0.5</version>
+      <version>0.1.0</version>
+      <version>0.3.0</version>
+      <version>0.3.2</version>
+      <version>0.3.3</version>
+      <version>0.3.4</version>
+      <version>0.3.5</version>
+    </versions>
+    <lastUpdated>20181006054828</lastUpdated>
+  </versioning>
+</metadata>
