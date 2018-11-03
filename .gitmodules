@@ -1,0 +1,3 @@
+[submodule "printeps-maven-repository"]
+	path = printeps-maven-repository
+	url = https://github.com/printeps/printeps-maven-repository.git
