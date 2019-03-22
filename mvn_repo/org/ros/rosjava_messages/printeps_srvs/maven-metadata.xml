@@ -2,14 +2,15 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>printeps_srvs</artifactId>
-  <version>0.3.0</version>
+  <version>19.3.1</version>
   <versioning>
     <versions>
       <version>0.0.2</version>
       <version>0.0.3</version>
       <version>0.0.4</version>
       <version>0.3.0</version>
+      <version>19.3.1</version>
     </versions>
-    <lastUpdated>20171214020949</lastUpdated>
+    <lastUpdated>20190322020949</lastUpdated>
   </versioning>
 </metadata>
