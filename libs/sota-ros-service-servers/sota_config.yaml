@@ -1,9 +1,4 @@
-id: 1
 platform: RaspberryPi
-host_name: raspberry.local
-#platform: Edison
-#host_name: edison.local
 ros_master_hostname: printeps-sota-tutorial.local
 ros_master_port_number: 11311
-ros_ip: 192.168.100.55
-watson_api_key: 
+watson_api_key:
