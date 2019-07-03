@@ -1,4 +1,3 @@
-platform: RaspberryPi
 ros_master_hostname: printeps-sota-tutorial.local
 ros_master_port_number: 11311
 watson_api_key:

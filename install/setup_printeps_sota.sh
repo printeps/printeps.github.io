@@ -16,4 +16,6 @@ fi
 if [ ! -e $JAR_FILE ];then
   wget "https://printeps.org/libs/sota-ros-service-servers/$JAR_FILE"
 fi
+
+
 env > ~/.ssh/environment
