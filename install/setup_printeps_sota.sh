@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION=19.7.7
+VERSION=19.8.1
 SPEAKERCTL_FILE="speakerctl.sh"
 SOTA_CONFIG_FILE="sota_config.yaml"
 JAR_FILE="sota-ros-service-servers-$VERSION.jar"
