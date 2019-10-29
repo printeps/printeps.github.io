@@ -39,6 +39,7 @@ body {
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -689,22 +690,19 @@ page design
 }
 
 
-.result table.dataFmt td ul {
+.result table.dataFmt td ol {
 	margin-left: 42px;
+	list-style-type: decimal;
 }
-.result table.dataFmt td ul li {
+.result table.dataFmt td ol li {
 	position: relative;
 	/*display: none;*/
 	margin-top: 1rem;
 }
-.result table.dataFmt td ul li:first-child {
-	margin-top: 0;
-	display: block;
-}
-.result table.dataFmt td ul li:before {
+.result table.dataFmt td ol li:before {
 	content: "";
 	position: absolute;
-	left: -22px;
+	left: -50px;
 	top: 0;
 	display: block;
 	width: 4px;
