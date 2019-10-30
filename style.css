@@ -185,6 +185,9 @@ main
 	font-size: 1.7rem;
 	color: #FFFFFF;
 }
+.news-content a {
+  position: relative;
+}
 
 /*
 .news {
