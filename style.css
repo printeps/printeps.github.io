@@ -173,8 +173,6 @@ main
 	color: #FFFFFF;
 }
 
-
-
 /* news */
 .news-content h1{
 	padding: 20px 0px;
@@ -544,7 +542,6 @@ page design
 .tabBlock {
 	padding: 60px 0;
 }
-
 
 .work .columnSet .leftCol { width: 660px;}
 .work .columnSet .rightCol { width: 416px;}
