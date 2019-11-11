@@ -521,10 +521,10 @@ page design
 	margin-left: 0;
 }
 
-.tabs ul li.current {
+.tabs ul li.is-show {
 	z-index: 30;
 }
-.tabs ul li a,
+
 .tabs ul li span {
 	display: block;
 	padding: 20px;
@@ -534,9 +534,35 @@ page design
 	font-weight: bold;
 	font-size: 1.25rem;
 }
-.tabs ul li.current a,
-.tabs ul li.current span {
+
+.tabs ul li.is-active span {
 	background-color: #FFFFFF;
+}
+
+.tab-panel{
+	display: none;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.tab-panel h2 {
+	font-size: 1.5rem;
+	line-height: 1.5em;
+	color:#4BBFE3;
+}
+
+.tab-panel ul {
+	list-style: square; 
+	margin-left: 2em;
+}
+
+.tab-tab.is-active{
+    background:#F00;
+    color:#FFF;
+    transition: all 0.2s ease-out;
+}
+.tab-panel.is-show{
+    display:block;
 }
 
 .tabBlock {
@@ -551,6 +577,11 @@ page design
 	width: 680px;
 	margin-left: -20px;
 }
+
+ul.popupGallery, ul.imageList {
+	list-style: none;
+}
+
 .popupGallery li {
 	float: left;
 	width: 320px;
