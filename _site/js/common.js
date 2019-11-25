@@ -119,3 +119,11 @@ function toggleYear(year){
 function toggleYearPublication(year){
 	$('.result .'+year+' table.dataFmt td ul li:nth-child(n + 2)').toggle();
 }
+
+$('.tab').click(function(){
+	$('.is-active').removeClass('is-active');
+	$(this).addClass('is-active');
+	$('.is-show').removeClass('is-show');
+	const index = $(this).index();
+	$('.tab-panel').eq(index).addClass('is-show');
+});

@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 }*/
 body {
 	line-height: 1.5;
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-family: "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",  sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -779,4 +779,9 @@ ul.popupGallery, ul.imageList {
 
 .robot_table td {
 	padding: 0 10px;
+}
+
+.related-work {
+	list-style-type: decimal;
+	padding-left: 2em;
 }

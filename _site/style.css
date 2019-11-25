@@ -32,13 +32,14 @@ footer, header, hgroup, menu, nav, section {
 }*/
 body {
 	line-height: 1.5;
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-family: "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",  sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
@@ -172,8 +173,6 @@ main
 	color: #FFFFFF;
 }
 
-
-
 /* news */
 .news-content h1{
 	padding: 20px 0px;
@@ -184,13 +183,8 @@ main
 	font-size: 1.7rem;
 	color: #FFFFFF;
 }
-
-.news-content li {
-    font-size: 1.2em;
-}
-
-.news-content em {
-    font-weight: bolder;
+.news-content a {
+  position: relative;
 }
 
 /*
@@ -527,10 +521,10 @@ page design
 	margin-left: 0;
 }
 
-.tabs ul li.current {
+.tabs ul li.is-show {
 	z-index: 30;
 }
-.tabs ul li a,
+
 .tabs ul li span {
 	display: block;
 	padding: 20px;
@@ -540,15 +534,40 @@ page design
 	font-weight: bold;
 	font-size: 1.25rem;
 }
-.tabs ul li.current a,
-.tabs ul li.current span {
+
+.tabs ul li.is-active span {
 	background-color: #FFFFFF;
+}
+
+.tab-panel{
+	display: none;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.tab-panel h2 {
+	font-size: 1.5rem;
+	line-height: 1.5em;
+	color:#4BBFE3;
+}
+
+.tab-panel ul {
+	list-style: square; 
+	margin-left: 2em;
+}
+
+.tab-tab.is-active{
+    background:#F00;
+    color:#FFF;
+    transition: all 0.2s ease-out;
+}
+.tab-panel.is-show{
+    display:block;
 }
 
 .tabBlock {
 	padding: 60px 0;
 }
-
 
 .work .columnSet .leftCol { width: 660px;}
 .work .columnSet .rightCol { width: 416px;}
@@ -558,6 +577,11 @@ page design
 	width: 680px;
 	margin-left: -20px;
 }
+
+ul.popupGallery, ul.imageList {
+	list-style: none;
+}
+
 .popupGallery li {
 	float: left;
 	width: 320px;
@@ -689,22 +713,19 @@ page design
 }
 
 
-.result table.dataFmt td ul {
+.result table.dataFmt td ol {
 	margin-left: 42px;
+	list-style-type: decimal;
 }
-.result table.dataFmt td ul li {
+.result table.dataFmt td ol li {
 	position: relative;
 	/*display: none;*/
 	margin-top: 1rem;
 }
-.result table.dataFmt td ul li:first-child {
-	margin-top: 0;
-	display: block;
-}
-.result table.dataFmt td ul li:before {
+.result table.dataFmt td ol li:before {
 	content: "";
 	position: absolute;
-	left: -22px;
+	left: -50px;
 	top: 0;
 	display: block;
 	width: 4px;
@@ -758,4 +779,9 @@ page design
 
 .robot_table td {
 	padding: 0 10px;
+}
+
+.related-work {
+	list-style-type: decimal;
+	padding-left: 2em;
 }
