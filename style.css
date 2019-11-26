@@ -551,6 +551,12 @@ page design
 	color:#4BBFE3;
 }
 
+.tab-panel h3 {
+	font-size: 1.2rem;
+	line-height: 1.2em;
+	color:#4BBFE3;
+}
+
 .tab-panel ul {
 	list-style: square; 
 	margin-left: 2em;
