@@ -551,7 +551,7 @@ page design
 	color:#4BBFE3;
 }
 
-.tab-panel h3 {
+h3 {
 	font-size: 1.2rem;
 	line-height: 1.2em;
 	color:#4BBFE3;
@@ -790,4 +790,8 @@ ul.popupGallery, ul.imageList {
 .related-work {
 	list-style-type: decimal;
 	padding-left: 2em;
+}
+
+.fig-center {
+	text-align: center;
 }
