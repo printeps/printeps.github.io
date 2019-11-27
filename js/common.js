@@ -96,7 +96,6 @@ $(function() {
 	//研究メンバー：高さ調整
 	$('.member .groupBox ul li').autoHeight();
 	
-	
 	//研究業績：開閉
 	
 	/*$('.result .btnArea a.btn').on('click', function() {

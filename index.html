@@ -212,8 +212,11 @@
 						図１に、PRINTEPSアーキテクチャの構成を示します。PRINTEPSでは、ROSに準拠したモジュールの入出力仕様および通信プロトコルを実装し、５つのサブシステム（知識ベース推論、音声対話、画像センシング、動作計画、機械学習）から構成されます。知識ベース推論は、ワークフロー、ビジネスルール、オントロジーを主に参照し、音声対話システムは、言語理解ルール、対話処理用ルール、応答生成用ルールを参照します。また、人間と機械のマルチモーダルなインタラクションにより取得した知識ログ、対話ログ、表情・視線・姿勢・動作ログ、環境ログなどは、オンラインおよびオフラインの機械学習の入力となり、機械学習に利用されます。各システム間のデータは、信号から記号までの多粒度ブラックボードを介して行われます。PRINTEPSは、AIアプリケーションをユーザ自身が容易に開発できるように、多重知識ベースエディタを提供しています。以下では、多粒度ブラックボードと多重知識ベースエディタについて紹介します。
 					</p>
 					<div class="fig-center">
-						<a href="images/printeps_fig1.png" target="_blank"><img src="images/printeps_fig1.png"
-								width="500" alt="図１：PRINTEPSアーキテクチャの構成" /></a><br />
+						<a href="images/printeps_fig1.png" target="_blank" data-lightbox="printeps-image"
+							data-title="図１：PRINTEPSアーキテクチャの構成">
+							<img src="images/printeps_fig1.png" width="500" alt="図１：PRINTEPSアーキテクチャの構成" />
+						</a>
+						<br />
 						図１：PRINTEPSアーキテクチャの構成
 					</div>
 
@@ -249,9 +252,12 @@
 						その他に、基本制御部品、グローバルおよびローカルなデータ蓄積・参照部品、ユーザが直接入力するための固定データ部品なども提供します。
 					</p>
 					<div class="fig-center">
-						<a href="images/printeps_fig2.png" target="_blank"><img src="images/printeps_fig2.png"
-								width="600" alt="図２：PRINTEPSワークフローエディタとROSソースコード自動生成" /></a>
-						<br />図２：PRINTEPSワークフローエディタとROSソースコード自動生成
+						<a href="images/printeps_fig2.png" target="_blank" data-lightbox="printeps-image"
+							data-title="図２：PRINTEPSワークフローエディタとROSソースコード自動生成">
+							<img src="images/printeps_fig2.png" width="600" alt="図２：PRINTEPSワークフローエディタとROSソースコード自動生成" />
+						</a>
+						<br />
+						図２：PRINTEPSワークフローエディタとROSソースコード自動生成
 					</div>
 					<h3>シナリオエディタ</h3>
 					<p>
@@ -271,9 +277,12 @@
 					</p>
 
 					<div class="fig-center">
-						<a href="images/printeps_fig3.png" target="_blank"><img src="images/printeps_fig3.png"
-								width="600" alt="図３：PRINTEPSシナリオエディタ" /></a>
-						<br />図３：PRINTEPSシナリオエディタ
+						<a href="images/printeps_fig3.png" target="_blank" data-lightbox="printeps-image"
+							data-title="図３：PRINTEPSシナリオエディタ">
+							<img src="images/printeps_fig3.png" width="600" alt="図３：PRINTEPSシナリオエディタ" />
+						</a>
+						<br />
+						図３：PRINTEPSシナリオエディタ
 					</div>
 					<h3>ビジネスルール管理システムとの連携</h3>
 					<p>
@@ -288,7 +297,7 @@
 					</p>
 					<p>
 						知識ベース推論が必要な場合には、ROSにおけるメッセージを<a href="https://www.w3.org/RDF/" target="_blank">Resource
-							Description Framework (RDF)</a>形式に変換し、<a href="https://www.w3.org/Submission/SWRL/"
+							Description Framework (RDF)</a>形式に変換し、 <a href="https://www.w3.org/Submission/SWRL/"
 							target="_blank">Semantic Web Rule Language (SWRL)</a>を用いて推論を行います。
 					</p>
 					<h2>関連文献</h2>
@@ -329,8 +338,11 @@
 					2017年10月7日（土）と8日（日）に、慶應義塾大学第18回矢上祭において、ロボット喫茶店の実践を行いました。図１に、ロボット喫茶店の構成を示します。入口、カウンター、四人掛けのテーブル2セット、二人掛けのテーブル2セット、ペットボトルディスペンサ、カップディスペンサ、ペットボトル棚、カート、アーム型ロボットJaco2、接客用ロボットPepper、配膳用ロボットHSRを図1のように配置しました。
 				</p>
 				<div class="fig-center">
-					<a href="images/robot_cafe_fig1.png" target="_blank"><img src="images/robot_cafe_fig1.png"
-							width="700" alt="図１：ロボット喫茶店の構成" /></a><br />
+					<a href="images/robot_cafe_fig1.png" target="_blank" data-lightbox="robot-cafe-image"
+						data-title="図１：ロボット喫茶店の構成">
+						<img src="images/robot_cafe_fig1.png" width="700" alt="図１：ロボット喫茶店の構成" />
+					</a>
+					<br />
 					図１：ロボット喫茶店の構成
 				</div>
 				<p>
@@ -339,16 +351,25 @@
 				</p>
 				<ul class="imageList cf">
 					<li>
-						<a href="images/robot_cafe_fig2.png" target="_blank"><img src="images/robot_cafe_fig2.png"
-								width="350" alt="図２：カウンター周辺の様子" /></a><br>図２：カウンター周辺の様子
+						<a href="images/robot_cafe_fig2.png" target="_blank" data-lightbox="robot-cafe-image"
+							data-title="図２：カウンター周辺の様子">
+							<img src="images/robot_cafe_fig2.png" width="350" alt="図２：カウンター周辺の様子" />
+						</a>
+						<br>図２：カウンター周辺の様子
 					</li>
 					<li>
-						<a href="images/robot_cafe_fig3.png" target="_blank"><img src="images/robot_cafe_fig3.png"
-								width="350" alt="図３：ペットボトル棚周辺の様子" /></a><br>図３：ペットボトル棚周辺の様子
+						<a href="images/robot_cafe_fig3.png" target="_blank" data-lightbox="robot-cafe-image"
+							data-title="図３：ペットボトル棚周辺の様子">
+							<img src="images/robot_cafe_fig3.png" width="350" alt="図３：ペットボトル棚周辺の様子" />
+						</a>
+						<br>図３：ペットボトル棚周辺の様子
 					</li>
 					<li>
-						<a href="images/robot_cafe_fig4.png" target="_blank"><img src="images/robot_cafe_fig4.png"
-								width="350" alt="図４：テーブル周辺の様子" /></a><br>図４：テーブル周辺の様子
+						<a href="images/robot_cafe_fig4.png" target="_blank" data-lightbox="robot-cafe-image"
+							data-title="図４：テーブル周辺の様子">
+							<img src="images/robot_cafe_fig4.png" width="350" alt="図４：テーブル周辺の様子" />
+						</a>
+						<br>図４：テーブル周辺の様子
 					</li>
 				</ul>
 				<p>
@@ -398,17 +419,26 @@
 
 				<ul class="imageList cf">
 					<li>
-						<a href="images/robot_cafe_fig5.png" target="_blank"><img src="images/robot_cafe_fig5.png"
-								width="350" alt="図５：ロボット喫茶店のサービス層" /></a><br>図５：ロボット喫茶店のサービス層
+						<a href="images/robot_cafe_fig5.png" target="_blank" data-lightbox="robot-cafe-image"
+							data-title="図５：ロボット喫茶店のサービス層">
+							<img src="images/robot_cafe_fig5.png" width="400" alt="図５：ロボット喫茶店のサービス層" />
+						</a>
+						<br>図５：ロボット喫茶店のサービス層
 					</li>
 					<li>
-						<a href="images/robot_cafe_fig6.png" target="_blank"><img src="images/robot_cafe_fig6.png"
-								width="350" alt="図６：「入店時対応サービス」の展開図" /></a><br>図６：「入店時対応」サービスの展開図
+						<a href="images/robot_cafe_fig6.png" target="_blank" data-lightbox="robot-cafe-image"
+							data-title="図６：「入店時対応サービス」の展開図">
+							<img src="images/robot_cafe_fig6.png" width="400" alt="図６：「入店時対応サービス」の展開図" />
+						</a>
+						<br>図６：「入店時対応」サービスの展開図
 					</li>
 				</ul>
 				<div class="fig-center">
-					<a href="images/robot_cafe_fig7.png" target="_blank"><img src="images/robot_cafe_fig7.png"
-							width="600" alt="図７：「お客様に挨拶」プロセスの展開図" /></a><br>図７：「お客様に挨拶」プロセスの展開図
+					<a href="images/robot_cafe_fig7.png" target="_blank" data-lightbox="robot-cafe-image"
+						data-title="図７：「お客様に挨拶」プロセスの展開図">
+						<img src="images/robot_cafe_fig7.png" width="600" alt="図７：「お客様に挨拶」プロセスの展開図" />
+					</a>
+					<br>図７：「お客様に挨拶」プロセスの展開図
 				</div>
 				<h2>関連文献</h2>
 				<ol class="related-work">
@@ -462,12 +492,16 @@
 
 				<ul class="imageList cf">
 					<li>
-						<a href="images/ta_robot_fig1.png" target="_blank"><img src="images/ta_robot_fig1.png"
-								width="350" alt="図１：シナリオエディタで開発した授業開始に関するシナリオ" /></a>図１：シナリオエディタで開発した授業開始に関するシナリオ
+						<a href="images/ta_robot_fig1.png" target="_blank" data-lightbox="ta-robot-image"
+							data-title="図１：シナリオエディタで開発した授業開始に関するシナリオ">
+							<img src="images/ta_robot_fig1.png" width="350" alt="図１：シナリオエディタで開発した授業開始に関するシナリオ" />
+						</a><br />図１：シナリオエディタで開発した授業開始に関するシナリオ
 					</li>
 					<li>
-						<a href="images/ta_robot_fig2.jpg" target="_blank"><img src="images/ta_robot_fig2.jpg"
-								width="350" alt="図２：表情を変えて教室を周回するSociBot" /></a>図２：表情を変えて教室を周回するSociBot
+						<a href="images/ta_robot_fig2.jpg" target="_blank" data-lightbox="ta-robot-image"
+							data-title="図２：表情を変えて教室を周回するSociBot">
+							<img src="images/ta_robot_fig2.jpg" width="400" alt="図２：表情を変えて教室を周回するSociBot" />
+						</a><br />図２：表情を変えて教室を周回するSociBot
 					</li>
 				</ul>
 
@@ -490,22 +524,31 @@
 
 				<ul class="imageList cf">
 					<li>
-						<a href="images/ta_robot_fig3.png" target="_blank"><img src="images/ta_robot_fig3.png"
-								width="350" alt="図３：学習単元に関する索引群" /></a>図３：学習単元に関する索引群
+						<a href="images/ta_robot_fig3.png" target="_blank" data-lightbox="ta-robot-image"
+							data-title="図３：学習単元に関する索引群">
+							<img src="images/ta_robot_fig3.png" width="350" alt="図３：学習単元に関する索引群" />
+						</a><br />図３：学習単元に関する索引群
 					</li>
 					<li>
-						<a href="images/ta_robot_fig4.png" target="_blank"><img src="images/ta_robot_fig4.png"
-								width="350" alt="図４：授業進行に関する索引群" /></a>図４：授業進行に関する索引群
+						<a href="images/ta_robot_fig4.png" target="_blank" data-lightbox="ta-robot-image"
+							data-title="図４：授業進行に関する索引群">
+							<img src="images/ta_robot_fig4.png" width="350" alt="図４：授業進行に関する索引群" />
+						</a><br />図４：授業進行に関する索引群
 					</li>
 					<li>
-						<a href="images/ta_robot_fig5.png" target="_blank"><img src="images/ta_robot_fig5.png"
-								width="350" alt="図５：ロボット操作法に関する索引群" /></a>図５：ロボット操作法に関する索引群
+						<a href="images/ta_robot_fig5.png" target="_blank" data-lightbox="ta-robot-image"
+							data-title="図５：ロボット操作法に関する索引群">
+							<img src="images/ta_robot_fig5.png" width="350" alt="図５：ロボット操作法に関する索引群" />
+						</a><br />図５：ロボット操作法に関する索引群
 					</li>
 				</ul>
 
 				<div class="fig-center">
-					<a href="images/ta_robot_fig6.png" target="_blank"><img src="images/ta_robot_fig6.png" width="500"
-							alt="図６：授業シナリオ検索エンジンのスクリーンショット" /></a><br />
+					<a href="images/ta_robot_fig6.png" target="_blank" data-lightbox="ta-robot-image"
+						data-title="図６：授業シナリオ検索エンジンのスクリーンショット">
+						<img src="images/ta_robot_fig6.png" width="500" alt="図６：授業シナリオ検索エンジンのスクリーンショット" />
+					</a>
+					<br />
 					図６：授業シナリオ検索エンジンのスクリーンショット
 				</div>
 
@@ -517,17 +560,18 @@
 						Kuwayama, Takahira Yamaguchi, “A Practical Teacher-Robot Collaboration Lesson Application
 						Based on PRINTEPS”, The Review of Socionetwork Strategies, Springer, Vol. 12, Issue 1, pp
 						97–126, 2018.</li>
-					<!--						<li>"AIロボSOTAと考えた 私たちの温暖化対策"，読売教育ネットワーク 会報49号，pp. 2-3，2019.（<a
-								href="https://kyoiku.yomiuri.co.jp/kaihou49a.pdf" target="_blank">PDF</a>）</li> -->
+					<!--						<li>"AIロボSOTAと考えた 私たちの温暖化対策"，読売教育ネットワーク 会報49号，pp. 2-3，2019.（<a href="https://kyoiku.yomiuri.co.jp/kaihou49a.pdf" target="_blank">PDF</a>）</li> -->
 					<li>"校長先生とロボット助手 理科の実験授業"，読売教育ネットワーク 会報38号，pp. 2-3，2018.（<a
-							href="https://kyoiku.yomiuri.co.jp/kaihou38a.pdf" target="_blank">PDF</a>）</li>
+							href="https://kyoiku.yomiuri.co.jp/kaihou38a.pdf" target="_blank">PDF</a>）
+					</li>
 					<li>西本智浩，赤柴駿介，高橋尚也，森田武史，柊原礼二，桑山美冴，山口高平，”PRINTEPS による教師ロボット連携授業アプリの開発”，信学技報, Vol. 116, No. 462,
 						CNR2016-30, pp. 63-68, 2017.</li>
 					<li>石川礼，小篠裕子，斎藤英雄，"PRINTEPSにおける教師ロボット連携授業のためのクイズモジュール"，信学技報，Vol. 116，No. 462，pp.69-74，2017.</li>
 					<li>田中康浩，小篠裕子，斎藤英雄，"PRINTEPSにおける教師ロボット連携授業のためのARモジュール "，信学技報"，Vol. 116，No. 462，pp.75-80，2017.
 					</li>
 					<li>"慶應義塾幼稚舎でロボットが理科の授業"，読売教育ネットワーク 会報24号，p. 6，2016.（<a
-							href="https://kyoiku.yomiuri.co.jp/kaihou24.pdf" target="_blank">PDF</a>）</li>
+							href="https://kyoiku.yomiuri.co.jp/kaihou24.pdf" target="_blank">PDF</a>）
+					</li>
 
 				</ol>
 			</div>
@@ -660,8 +704,8 @@
 	<script type="text/javascript" src="js/jquery.transit.min.js"></script>
 	<script type="text/javascript" src="js/jQueryAutoHeight.js"></script>
 	<script type="text/javascript" src="js/common.js"></script>
-
-
+	<link href="./css/lightbox.min.css" rel="stylesheet">
+	<script src="./js/lightbox.min.js" type="text/javascript"></script>
 </body>
 
 </html>

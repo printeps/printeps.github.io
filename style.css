@@ -614,15 +614,15 @@ ul.popupGallery, ul.imageList {
 	text-align: center;
 }
 
-
-
 .imageList {
-	margin: 2rem 0;
+	margin: 1rem 0;
+	display: flex;
+	justify-content: center;
 }
 .imageList li {
-	float: left;
-	width: 361px;
-	margin-left: 21px;
+	width: 400px;
+	margin-left: 10px;
+	text-align: center;
 }
 .imageList li:first-child {
 	margin-left: 0;
