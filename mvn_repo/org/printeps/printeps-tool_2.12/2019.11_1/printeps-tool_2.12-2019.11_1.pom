@@ -5,7 +5,7 @@
     <artifactId>printeps-tool_2.12</artifactId>
     <packaging>jar</packaging>
     <description>printeps-tool</description>
-    <version>4.0.4</version>
+    <version>2019.11_1</version>
     <name>printeps-tool</name>
     <organization>
         <name>org.printeps</name>
@@ -14,7 +14,12 @@
         <dependency>
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
-            <version>2.12.7</version>
+            <version>2.12.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lihaoyi</groupId>
+            <artifactId>scalatags_2.12</artifactId>
+            <version>0.7.0</version>
         </dependency>
         <dependency>
             <groupId>org.jmdns</groupId>
